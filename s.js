@@ -2,7 +2,7 @@ const embed = require('discord.js');
 const Discord = require('discord.js'); 
 const client = new Discord.Client();
 var prefix = 'k!' 
-client.on("ready", () => {client.user.setGame('k!yardım | Oralet <3 | Sunucu Sayısı: ' + client.guilds.size , 'https://twitch.tv/GardropFuat') 
+client.on("ready", () => {client.user.setGame('k!yardım | Oralet :/ | Sunucu Sayısı: ' + client.guilds.size , 'https://twitch.tv/GardropFuat') 
 }); 
 client.on('message', msg => { 
 if (msg.content === prefix + 'yardım') { 
@@ -32,11 +32,11 @@ msg.channel.send({embed: embed})
 } 
 });
 client.on('message', msg => { 
-if(msg.content.toLowerCase() === 'kivi') { 
+if(msg.content.toLowerCase() === 'süvari') { 
 let embed = new Discord.RichEmbed()  
 .setColor(Math.floor(Math.random() * (0xFFFFFF + 5)))  
-.addField("Ben mi? Hayır hayır! Bana seslenme!", 
-"Oralet, oralet! Evet ona söyle!") 
+.addField("Bana seslenmeye herkesin gücü yetmez", 
+"Sıkıntın ne?") 
 msg.channel.send({embed: embed})  
 } 
 });
