@@ -1,8 +1,8 @@
 const embed = require('discord.js'); 
 const Discord = require('discord.js'); 
 const client = new Discord.Client();
-var prefix = 'k!' 
-client.on("ready", () => {client.user.setGame('k!yardım | Oralet :/ | Sunucu Sayısı: ' + client.guilds.size , 'https://twitch.tv/GardropFuat') 
+var prefix = 's!' 
+client.on("ready", () => {client.user.setGame('s!yardım | Oralet :/ | Sunucu Sayısı: ' + client.guilds.size , 'https://twitch.tv/GardropFuat') 
 }); 
 client.on('message', msg => { 
 if (msg.content === prefix + 'yardım') { 
